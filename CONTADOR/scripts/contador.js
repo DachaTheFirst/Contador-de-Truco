@@ -15,6 +15,7 @@ class Contador {
       this.actualizarCuenta();
     }
     agregar(cantidad = 1) {
+      if(this.numero == 30) return;
       this.numero += cantidad;
       this.actualizarCuenta();
     }
